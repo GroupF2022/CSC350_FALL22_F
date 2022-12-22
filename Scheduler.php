@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli( "localhost","root","root1234!", "laundry") or die("Error " . mysqli_error($conn));;
+$mysqli = new mysqli( "localhost","root","root", "laundry") or die("Error " . mysqli_error($conn));;
 if(!$mysqli){
   echo "Failed to connect to Database";
 }
